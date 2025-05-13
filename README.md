@@ -74,3 +74,26 @@ Coordinates the team, tracks progress, and ensures project milestones are met.
 
 - **Payment Integration**
   Supports secure online payments and payment history tracking.
+
+## API Security
+
+### Authentication
+Only registered users can access specific endpoints using JWT tokens.
+
+### Authorization
+Permissions will be applied to prevent unauthorized access (e.g., only hosts can update their listings).
+
+### Rate Limiting
+Protects APIs from abuse by limiting the number of requests per user/IP.
+
+### Input Validation
+All incoming data is validated to prevent SQL injection and XSS.
+
+### Data Encryption
+Passwords and sensitive data are encrypted using industry standards.
+
+**Why It’s Important**:
+- Protects user data and transactions.
+- Prevents unauthorized bookings or edits.
+- Ensures secure payment processing.
+
