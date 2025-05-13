@@ -34,3 +34,27 @@ Coordinates the team, tracks progress, and ensures project milestones are met.
 - **Docker**: Containerizes the application for consistent development and deployment.
 - **GitHub Actions**: Automates testing and deployment via CI/CD pipelines.
 
+## Database Design
+
+### Entities
+
+- **User**
+  - Fields: id, username, email, password, date_joined
+  - Relationships: Can have multiple bookings, reviews, and listed properties
+
+- **Property**
+  - Fields: id, owner_id, title, location, price_per_night
+  - Relationships: Belongs to a user, has many bookings and reviews
+
+- **Booking**
+  - Fields: id, user_id, property_id, check_in, check_out
+  - Relationships: Belongs to a user and a property
+
+- **Review**
+  - Fields: id, user_id, property_id, rating, comment
+  - Relationships: Belongs to a user and a property
+
+- **Payment**
+  - Fields: id, booking_id, amount, payment_status, date
+  - Relationships: Linked to a booking
+
