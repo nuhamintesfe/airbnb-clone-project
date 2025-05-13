@@ -97,3 +97,16 @@ Passwords and sensitive data are encrypted using industry standards.
 - Prevents unauthorized bookings or edits.
 - Ensures secure payment processing.
 
+## CI/CD Pipeline
+
+**CI/CD (Continuous Integration and Continuous Deployment)** automates testing and deployment to reduce errors and speed up releases.
+
+### Tools:
+- **GitHub Actions**: Automates testing, linting, and deployment on every commit.
+- **Docker**: Ensures consistency across development, staging, and production environments.
+
+**Benefits**:
+- Early bug detection
+- Faster iteration and feedback
+- Safer deployments with rollback support
+
