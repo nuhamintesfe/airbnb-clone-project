@@ -58,3 +58,19 @@ Coordinates the team, tracks progress, and ensures project milestones are met.
   - Fields: id, booking_id, amount, payment_status, date
   - Relationships: Linked to a booking
 
+## Feature Breakdown
+
+- **User Registration & Authentication**
+  Allows users to sign up, log in, and manage their profiles securely.
+
+- **Property Management**
+  Hosts can list properties with photos, descriptions, and pricing.
+
+- **Booking System**
+  Users can check availability, book properties, and view their bookings.
+
+- **Review System**
+  Enables guests to rate and review properties after their stay.
+
+- **Payment Integration**
+  Supports secure online payments and payment history tracking.
