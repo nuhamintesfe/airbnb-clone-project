@@ -25,3 +25,12 @@ Implements security measures like authentication, encryption, and input validati
 
 ### Project Manager
 Coordinates the team, tracks progress, and ensures project milestones are met.
+
+## Technology Stack
+
+- **Django**: A high-level Python web framework used to build the backend and RESTful APIs.
+- **PostgreSQL**: A powerful open-source relational database for storing structured data.
+- **GraphQL**: Enables efficient and flexible API data queries and mutations.
+- **Docker**: Containerizes the application for consistent development and deployment.
+- **GitHub Actions**: Automates testing and deployment via CI/CD pipelines.
+
